@@ -62,11 +62,13 @@ endmodule
 
 **RTL Schematic**
 <img width="1334" height="667" alt="Screenshot 2025-12-05 081747" src="https://github.com/user-attachments/assets/f6ec4479-c977-45ce-b7d4-6a69aa20e824" />
+<img width="1505" height="802" alt="image" src="https://github.com/user-attachments/assets/87853fce-3011-4c44-a8c2-d59b4043283c" />
 
 
 **Output Timing Waveform**
 TIMING DIAGRAM FOR FLIP FLOP:
 <img width="1072" height="563" alt="image" src="https://github.com/user-attachments/assets/9ed242f5-14e6-4658-8e33-b98fca88170e" />
+<img width="1541" height="816" alt="image" src="https://github.com/user-attachments/assets/83c6c5e8-89f7-4eff-82c9-5d53de417175" />
 
 **Result:**
 
