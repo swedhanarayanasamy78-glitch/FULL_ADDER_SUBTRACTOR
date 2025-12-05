@@ -43,13 +43,30 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
+module jkff(j,k,clk,q,qbar);
+input j,k,clk;
+output reg q,qbar;
+initial 
+begin
+q=1'b0;
+q=1'b1;
+end 
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+always @(posedge clk)
+begin 
+q<=(j&~q)|(~k&q);
+qbar<=~q;
+end
+endmodule
+
 
 **RTL Schematic**
+<img width="1334" height="667" alt="Screenshot 2025-12-05 081747" src="https://github.com/user-attachments/assets/f6ec4479-c977-45ce-b7d4-6a69aa20e824" />
+
 
 **Output Timing Waveform**
+TIMING DIAGRAM FOR FLIP FLOP:
+<img width="1072" height="563" alt="image" src="https://github.com/user-attachments/assets/9ed242f5-14e6-4658-8e33-b98fca88170e" />
 
 **Result:**
 
